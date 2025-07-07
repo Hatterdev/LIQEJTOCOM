@@ -1,0 +1,27 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "quickfix.biome": "explicit",
+      "source.organizeImports.biome": "always"
+    },
+  },
+  "notebook.defaultFormatter": "biomejs.biome",
+  "editor.defaultFormatter": "biomejs.biome",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "quickfix.biome": "explicit",
+      "source.organizeImports.biome": "explicit"
+    }
+  },
+  "editor.defaultFoldingRangeProvider": "biomejs.biome",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+}
